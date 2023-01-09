@@ -1,0 +1,49 @@
+*{
+    padding: none;
+    margin: none;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.image{
+    margin:80px 20%;
+    padding:20px ;
+    display: flex;
+    color:black;
+    
+}
+.image img{
+    
+    border-radius: 50px;
+    width:320px;
+    height: 300px;
+    
+    
+}
+
+.name{
+    margin: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    
+    
+}
+
+.name h1{
+    
+    font-size: 30px;
+}
+.name p{
+    font-size: x-large;
+}
+
+.information {
+    align-content: center;
+    margin : 0px 10%;
+}
+.information p{
+    font-size: large;
+}
